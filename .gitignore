@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+ 
+# IDE files
+.vscode/
+.idea/
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Dependency directories
+node_modules/
+ 
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Ignore personal configuration files
+config.ini
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore local development files
+local_settings.py
