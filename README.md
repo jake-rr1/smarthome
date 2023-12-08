@@ -2,26 +2,26 @@
 Smart Home Automation System
 
 Project 2: Smart Home Automation System
-Relevent Job: Software Engineer
-
+Relevent Job: Software Engineer 
+<br /> <br />
 
 Objective:
 Create an intelligent system that automates various aspects of a smart home, integrating devices such as lights, thermostats, cameras, and door locks.
-
+<br /> <br />
 
 Languages:
 
 Python for backend logic and device communication.
 
 C++ for low-level system interactions.
-
+<br /> <br />
 
 Agile Tools:
 
 Asana for project management and task tracking.
 
 Azure DevOps for continuous integration and deployment.
-
+<br /> <br />
 
 Technologies:
 
@@ -34,7 +34,7 @@ AWS ECR for container image storage.
 TensorFlow for machine learning models for anomaly detection or user behavior prediction.
 
 PyTorch for deep learning in computer vision applications.
-
+<br /> <br />
 
 Features:
 
@@ -47,7 +47,7 @@ Voice Recognition: Integrate a voice-activated assistant using natural language 
 Energy Optimization: Utilize machine learning algorithms to optimize energy usage based on user behavior and preferences.
 
 Mobile App Interface: Develop a user-friendly mobile app for remote control and monitoring.
-
+<br /> <br />
 
 Development Phases (Agile):
 
@@ -64,7 +64,7 @@ Sprint 5 (3 weeks): Integrate Kubernetes for container orchestration and AWS ECR
 Sprint 6 (2 weeks): Develop a mobile app interface for remote control and monitoring.
 
 Sprint 7 (2 weeks): Final testing, bug fixing, and documentation.
-
+<br /> <br />
 
 Learning Goals:
 
