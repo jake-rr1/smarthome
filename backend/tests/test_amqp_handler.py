@@ -2,8 +2,6 @@
 
 import sys
 sys.path.append('C:\\Users\\jacob\\Desktop\\github\\smarthome')
-sys.path.append('C:\\Users\\jacob\\Desktop\\github\\smarthome\\backend')
-sys.path.append('C:\\Users\\jacob\\Desktop\\github\\smarthome\\backend\\app')
 
 print(sys.path)
 
