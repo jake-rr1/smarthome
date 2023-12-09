@@ -1,4 +1,0 @@
-Flask==2.1.0
-requests==2.26.0
-paho-mqtt==1.5.1
-coapthon3==1.0.1
