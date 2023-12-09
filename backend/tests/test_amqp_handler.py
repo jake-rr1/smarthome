@@ -1,8 +1,4 @@
 # Unit tests for the AMQP handler
-
-
-import sys
-
 import unittest
 from unittest.mock import patch
 from backend.app.handlers.amqp_handler import AMQPHandler
@@ -15,8 +11,9 @@ class TestAMQPHandler(unittest.TestCase):
     @patch('boto3.client')
     def test_send_message(self, mock_boto3_client):
         with patch.object(self.amqp_handler.sqs, 'send_message') as mock_send_message:
-            self.amqp_handler.send_message("Test message")
-            mock_send_message.assert_called_once_with(QueueUrl="https://sqs.us-west-1.amazonaws.com/832483746143/IoTQueue.fifo", MessageBody="Test message")
+            self.amqp_handler.send_message("test_grp", "test_dupe", "Test message")
+            mock_send_message.assert_called_once_with(QueueUrl="https://sqs.us-west-1.amazonaws.com/832483746143/IoTQueue.fifo", MessageBody="Test message", MessageDeduplicationId='test_dupe', MessageGroupId='test_grp')
+
 
     @patch('boto3.client')
     def test_receive_messages(self, mock_boto3_client):

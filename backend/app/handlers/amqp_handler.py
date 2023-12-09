@@ -9,10 +9,12 @@ class AMQPHandler:
         self.sqs = boto3.client('sqs')
         self.queue_url = queue_url
 
-    def send_message(self, message_body):
+    def send_message(self, message_group_id, message_duplication_id, message_body):
         response = self.sqs.send_message(
             QueueUrl=self.queue_url,
-            MessageBody=message_body
+            MessageBody=message_body,
+            MessageDeduplicationId=message_duplication_id,
+            MessageGroupId=message_group_id
         )
         return response
 
