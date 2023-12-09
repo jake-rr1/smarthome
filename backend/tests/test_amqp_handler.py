@@ -1,7 +1,7 @@
 # Unit tests for the AMQP handler
 
 import sys
-#sys.path.append('C:\\Users\\jacob\\Desktop\\github\\smarthome')
+sys.path.append('C:\\Users\\jacob\\Desktop\\github\\smarthome')
 
 print(sys.path)
 

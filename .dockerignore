@@ -1,0 +1,50 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv
+env
+.venv
+env.bak
+venv.bak
+
+# IDEs
+.vscode/
+*.pyc
+*.pyo
+*.pyc
+*.pyo
+
+# Compiled Python bytecode
+__pycache__/
+*.pyc
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Environment variables
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pyz
+*.pyw
+*.pyw
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Project-specific files
+db.sqlite3
+
