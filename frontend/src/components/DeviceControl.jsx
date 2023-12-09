@@ -1,1 +1,1 @@
-# Source code for the frontend application
+/* Source code for the frontend application */
